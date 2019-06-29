@@ -1,0 +1,282 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "opengesture",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "OpenGestureIntent",
+          "slots": [
+            {
+              "name": "searchQuery",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "appType",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "appLocation",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "date",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "run application at {appLocation}",
+            "run application at {appLocation} modified {date}",
+            "run application type {appType} ",
+            "run application name  {searchQuery}",
+            "run application  {searchQuery}",
+            "run application type {appType} at {appLocation}",
+            "run application type {appType} at {appLocation} modified {date}",
+            "start application at {appLocation}",
+            "start application at {appLocation} modified {date}",
+            "start application type {appType} ",
+            "start application name  {searchQuery}",
+            "start application  {searchQuery}",
+            "start application type {appType} at {appLocation} ",
+            "start application type {appType} at {appLocation} modified {date}",
+            "launch application at {appLocation}",
+            "launch application at {appLocation} modified {date}",
+            "launch application type {appType} ",
+            "launch application name  {searchQuery}",
+            "launch application  {searchQuery}",
+            "launch application type {appType} at {appLocation} ",
+            "launch application type {appType} at {appLocation} modified {date} ",
+            "execute application at {appLocation} modified {date}",
+            "execute application at {appLocation}",
+            "execute application type {appType} ",
+            "execute application name  {searchQuery}",
+            "execute application  {searchQuery}",
+            "execute application type {appType} at {appLocation} ",
+            "execute application type {appType} at {appLocation} modified {date} ",
+            "open application at {appLocation} modified {date}",
+            "open application at {appLocation}",
+            "open application type {appType} modified {date}",
+            "open application type {appType} at {appLocation}",
+            "open application type {appType} at {appLocation} modified {date}",
+            "open application name  {searchQuery}",
+            "open application  {searchQuery}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "LIST_OF_APP_LOCATIONS",
+          "values": [
+            {
+              "name": {
+                "value": "recent",
+                "synonyms": [
+                  "last"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "user",
+                "synonyms": [
+                  "my libraries",
+                  "my user"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "videos"
+              }
+            },
+            {
+              "name": {
+                "value": "music",
+                "synonyms": [
+                  "my music"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "pictures"
+              }
+            },
+            {
+              "name": {
+                "value": "everywhere",
+                "synonyms": [
+                  "root"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "downloads",
+                "synonyms": [
+                  "download",
+                  "my downloads"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "docs",
+                "synonyms": [
+                  "document",
+                  "documents"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "LIST_OF_APP_TYPES",
+          "values": [
+            {
+              "name": {
+                "value": "applications",
+                "synonyms": [
+                  "application",
+                  "exe"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "unity",
+                "synonyms": [
+                  "unity",
+                  "exe"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "folders"
+              }
+            },
+            {
+              "name": {
+                "value": "app",
+                "synonyms": [
+                  "apps",
+                  "exe"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "program",
+                "synonyms": [
+                  "programs",
+                  "exe"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "executable",
+                "synonyms": [
+                  "exe",
+                  "exe"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "windowsapp",
+                "synonyms": [
+                  "xap",
+                  "xap"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "UniversalWindowsPlatform",
+                "synonyms": [
+                  "UWP",
+                  "APPXs"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "LIST_OF_DATE_TYPES",
+          "values": [
+            {
+              "name": {
+                "value": "last year",
+                "synonyms": [
+                  "past year"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "last month",
+                "synonyms": [
+                  "past month"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "last week",
+                "synonyms": [
+                  "past week"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "this week",
+                "synonyms": [
+                  "current week"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "yesterday",
+                "synonyms": [
+                  "other day"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "today",
+                "synonyms": [
+                  "right now",
+                  "now"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
