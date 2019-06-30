@@ -19,7 +19,8 @@ The software provided here works with the currently available [Alexa Skills kit]
 # OpenGesture Skill 0.0.1v Requirements
 
 OpenGesture Skill 0.0.1v is a Alexa PC Skills Framework application supercharged with power-efficient Intel® processors and Intel® Processor Graphics on a laptop.
-** [OpenGesture App](https://drive.google.com/open?id=1GXccm56IurkrxyEZZcYUBN9DFXaYFL5Q)
+
+0. [OpenGesture App](https://drive.google.com/open?id=1GXccm56IurkrxyEZZcYUBN9DFXaYFL5Q)
 1. An AWS account
 2. An Alexa Development Console account
 3. A PC with the following items installed:
